@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
         mediaPlayer.start();
         if (mediaPlayer.isPlaying()) {
             sound.setBackgroundColor(Color.RED);
-        }
+        }//change
         mediaPlayer.setOnCompletionListener(new MediaPlayer.OnCompletionListener() {
             @Override
             public void onCompletion(MediaPlayer mp) {
